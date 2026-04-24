@@ -1,100 +1,155 @@
 export const profile = {
-  name: "Aanya Sharma",
-  role: "Computer Science Student · Designer · Builder",
-  tagline: "Crafting delightful digital experiences where code meets creativity.",
-  location: "Bengaluru, India",
-  email: "hello@aanya.dev",
+  name: "Esha Satvase",
+  role: "CS Student · AI Developer · Community Builder",
+  tagline: "Building AI-driven applications and leading impactful tech communities — where curiosity meets execution.",
+  location: "Hyderabad, India",
+  email: "esha19691@gmail.com",
+  phone: "+91 95022 83533",
   social: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
-    dribbble: "https://dribbble.com",
+    dribbble: "#",
   },
 };
 
 export const skills = [
-  { name: "React & Next.js", level: 92, color: "rose" },
-  { name: "TypeScript", level: 88, color: "lilac" },
-  { name: "UI / UX Design", level: 90, color: "peach" },
-  { name: "Python", level: 82, color: "mint" },
-  { name: "Figma", level: 95, color: "butter" },
-  { name: "Node.js", level: 78, color: "rose" },
-  { name: "TailwindCSS", level: 94, color: "lilac" },
-  { name: "Public Speaking", level: 85, color: "peach" },
+  { name: "Python", level: 90, color: "rose" },
+  { name: "Prompt Engineering", level: 92, color: "lilac" },
+  { name: "Streamlit & APIs", level: 88, color: "peach" },
+  { name: "C Programming", level: 82, color: "mint" },
+  { name: "MySQL", level: 80, color: "butter" },
+  { name: "AWS (S3, EC2, Lambda)", level: 75, color: "rose" },
+  { name: "Hugging Face & NLP", level: 85, color: "lilac" },
+  { name: "Git & Collaboration", level: 88, color: "peach" },
+  { name: "Event Leadership", level: 95, color: "mint" },
+  { name: "Public Speaking", level: 90, color: "butter" },
 ];
 
 export const events = [
   {
-    title: "HackForGood 2024",
-    role: "Lead Organizer",
-    club: "Coding Club",
-    date: "March 2024",
-    description: "48-hour hackathon with 300+ participants building solutions for social impact. Coordinated logistics, sponsors, and judging panel.",
-    impact: "300+ participants · 12 sponsors · ₹2L prize pool",
+    title: "Agentic AI Workshop",
+    role: "Outreach Head & Lead Organizer",
+    club: "DevCatalyst Club",
+    date: "2025",
+    description:
+      "Organized and led a hands-on workshop on Agentic AI, introducing students to autonomous AI agents, frameworks, and real-world use cases.",
+    impact: "90–100 participants · hands-on sessions",
     color: "rose",
   },
   {
-    title: "Designathon — Reimagine UI",
-    role: "Workshop Lead",
-    club: "Design Society",
-    date: "October 2023",
-    description: "Hosted hands-on Figma & design systems workshop. Mentored 50+ designers across two days of intense creative sprints.",
-    impact: "50+ mentees · 18 prototypes shipped",
-    color: "peach",
-  },
-  {
-    title: "TEDx Campus Talks",
-    role: "Stage & Production",
-    club: "TEDx Club",
-    date: "November 2023",
-    description: "Managed stage production and speaker rehearsals for the annual TEDx event with 8 speakers and a 600-seat auditorium.",
-    impact: "8 speakers · 600 attendees",
+    title: "Web3 & Blockchain with Algorand × Rise In",
+    role: "Lead Organizer",
+    club: "DevCatalyst Club",
+    date: "2025",
+    description:
+      "Curated a deep-dive workshop on Web3 fundamentals and Algorand blockchain in collaboration with Rise In, fostering builder mindset.",
+    impact: "120 participants · industry collab",
     color: "lilac",
   },
   {
-    title: "Open Source Day",
-    role: "Speaker",
-    club: "GDSC",
-    date: "August 2024",
-    description: "Delivered a talk on contributing to open source for first-timers. Helped 40+ students make their first PR.",
-    impact: "40+ first PRs merged",
+    title: "Youth Speaks Ideathon × AIESEC",
+    role: "Event Lead",
+    club: "DevCatalyst Club",
+    date: "2025",
+    description:
+      "Executed an ideathon in collaboration with AIESEC, enabling participants to design and pitch structured solutions on social impact themes.",
+    impact: "180+ participants · social impact focus",
+    color: "peach",
+  },
+  {
+    title: "Smart India Hackathon 2025 — Internal Round",
+    role: "Operations Coordinator",
+    club: "DevCatalyst Club",
+    date: "2025",
+    description:
+      "Coordinated the SIH internal round end-to-end — evaluation workflow, scheduling, and shortlisting across 130+ teams.",
+    impact: "750+ students · 130+ teams managed",
     color: "mint",
+  },
+  {
+    title: "AWS Cloud Club MECS — Flagship Events",
+    role: "Event Planning & Management Head",
+    club: "AWS Cloud Club MECS",
+    date: "Nov 2025 — Present",
+    description:
+      "Led planning and execution of 3 cloud-focused events covering AWS S3, Lambda, EC2, IAM and EKS. Onboarded 100+ students and built feedback-driven learning loops.",
+    impact: "110+, 70+, and 200+ participants",
+    color: "butter",
+  },
+  {
+    title: "AI-Powered Kolam Art Generator — SIH 2025",
+    role: "Top 50 Finalist",
+    club: "Smart India Hackathon",
+    date: "2025",
+    description:
+      "Selected as Top 50 Finalist (internal round) out of 170+ teams for an AI-powered Kolam art generator blending culture and computation.",
+    impact: "Top 50 of 170+ teams",
+    color: "rose",
   },
 ];
 
 export const projects = [
   {
-    title: "Lumen — Study Companion",
-    desc: "AI-powered note summarizer with spaced repetition.",
-    tag: "Full Stack",
+    title: "AI Public Health Chatbot",
+    desc: "Multimodal NLP chatbot (text, voice, OCR) for real-time disease info, with WhatsApp/SMS outbreak alerts. Improved response accuracy by ~25–30%.",
+    tag: "Python · Streamlit · NLP",
     href: "#",
   },
   {
-    title: "Petal — Mental Wellness",
-    desc: "A gentle mood journal with adaptive prompts.",
-    tag: "Mobile",
+    title: "AI Code Generator",
+    desc: "Dify.ai-powered tool turning natural language prompts into structured multi-language code. Optimized prompts boosted correctness by ~20–30%.",
+    tag: "Python · Dify.ai · Prompts",
     href: "#",
   },
   {
-    title: "Pixel Pantry",
-    desc: "Recipe discovery from what's in your fridge.",
-    tag: "Web App",
+    title: "Viswam.ai Internship Project",
+    desc: "Built an AI-powered application with Gemini API integration during internship at Swecha × IIIT Hyderabad — full SDLC collaboration.",
+    tag: "Python · Gemini API",
     href: "#",
   },
 ];
 
 export const certifications = [
-  { title: "Meta Front-End Developer", issuer: "Coursera · Meta", year: "2024", id: "META-FE-24" },
-  { title: "Google UX Design Certificate", issuer: "Coursera · Google", year: "2024", id: "GUX-24-991" },
-  { title: "AWS Cloud Practitioner", issuer: "Amazon Web Services", year: "2023", id: "AWS-CP-23" },
-  { title: "Responsive Web Design", issuer: "freeCodeCamp", year: "2022", id: "FCC-RWD-22" },
-  { title: "Python for Everybody", issuer: "Coursera · UMich", year: "2022", id: "PY4E-22" },
-  { title: "Figma Advanced Prototyping", issuer: "Interaction Design Foundation", year: "2024", id: "IDF-FIG-24" },
+  { title: "Software Developer Intern", issuer: "Viswam.ai · Swecha × IIIT Hyderabad", year: "2025", id: "INTERN-25" },
+  { title: "AWS Cloud Foundations", issuer: "AWS Cloud Club MECS", year: "2025", id: "AWS-CF-25" },
+  { title: "Prompt Engineering & GenAI", issuer: "Self-paced · Hugging Face", year: "2025", id: "PE-HF-25" },
+  { title: "Top 50 Finalist — SIH 2025", issuer: "Smart India Hackathon", year: "2025", id: "SIH-2025" },
+  { title: "Microsoft Excel & Power BI", issuer: "In Progress", year: "2025", id: "MS-DA-25" },
+  { title: "Microsoft Copilot", issuer: "In Progress", year: "2025", id: "MS-CP-25" },
 ];
 
 export const stats = [
-  { label: "Projects shipped", value: "20+" },
-  { label: "Events organized", value: "12" },
-  { label: "Workshops led", value: "8" },
-  { label: "Cups of chai", value: "∞" },
+  { label: "Events led", value: "8+" },
+  { label: "Community members", value: "1500+" },
+  { label: "CGPA (5 sems)", value: "9.21" },
+  { label: "Participants impacted", value: "1.4K+" },
+];
+
+export const education = [
+  {
+    school: "Matrusri Engineering College, Hyderabad",
+    degree: "B.Tech, Computer Science & Engineering",
+    score: "CGPA 9.21 (first 5 semesters)",
+    period: "Pursuing",
+  },
+  {
+    school: "St Joseph's Public School (ISC)",
+    degree: "Class XI & XII — MPC + Computer Applications",
+    score: "83%",
+    period: "ISC",
+  },
+  {
+    school: "St Joseph's Public School (ICSE)",
+    degree: "Class X",
+    score: "97%",
+    period: "ICSE",
+  },
+];
+
+export const achievements = [
+  "Top 50 Finalist — Smart India Hackathon 2025 (AI Kolam Art Generator) out of 170+ teams.",
+  "Selected as Event Planning & Management Head — AWS Cloud Club MECS.",
+  "Led 5+ impactful events advancing inclusion, innovation and student happiness.",
+  "Served as Deputy Prime Minister in school cabinet ministry — recognized for program execution.",
 ];
