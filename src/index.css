@@ -56,6 +56,13 @@
                      radial-gradient(at 80% 10%, hsl(280 70% 88% / 0.7) 0px, transparent 50%),
                      radial-gradient(at 70% 80%, hsl(20 85% 88% / 0.7) 0px, transparent 50%),
                      radial-gradient(at 20% 90%, hsl(45 85% 88% / 0.6) 0px, transparent 50%);
+    --gradient-aurora: conic-gradient(from 180deg at 50% 50%,
+      hsl(340 90% 85%) 0deg,
+      hsl(280 80% 85%) 90deg,
+      hsl(200 80% 85%) 180deg,
+      hsl(45 90% 85%) 270deg,
+      hsl(340 90% 85%) 360deg);
+    --gradient-shine: linear-gradient(110deg, transparent 30%, hsl(0 0% 100% / 0.6) 50%, transparent 70%);
 
     /* Shadows */
     --shadow-soft: 0 4px 24px -8px hsl(340 60% 60% / 0.15);
@@ -106,6 +113,46 @@
   .bg-hero { background-image: var(--gradient-hero); }
   .bg-soft { background-image: var(--gradient-soft); }
   .bg-gradient-primary { background-image: var(--gradient-primary); }
+  .bg-aurora { background-image: var(--gradient-aurora); }
+
+  .animate-aurora { animation: aurora-spin 22s linear infinite; }
+  @keyframes aurora-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .animate-gradient-x {
+    background-size: 200% 200%;
+    animation: gradient-x 8s ease infinite;
+  }
+  @keyframes gradient-x {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .sparkle {
+    position: absolute;
+    width: 6px; height: 6px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 12px 2px hsl(0 0% 100% / 0.9);
+    animation: twinkle 3s ease-in-out infinite;
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+  }
+
+  .text-shine {
+    background: linear-gradient(110deg, hsl(var(--foreground)) 40%, hsl(var(--primary)) 50%, hsl(var(--foreground)) 60%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 4s linear infinite;
+  }
+  @keyframes shine {
+    to { background-position: -200% 0; }
+  }
 
   .text-gradient {
     background: var(--gradient-primary);
