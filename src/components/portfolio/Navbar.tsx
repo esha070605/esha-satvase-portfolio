@@ -37,7 +37,7 @@ export const Navbar = () => {
           <span className="grid place-items-center h-8 w-8 rounded-full bg-gradient-primary text-primary-foreground shadow-soft group-hover:rotate-12 transition-transform">
             <Sparkles className="h-4 w-4" />
           </span>
-          <span className="font-display font-semibold tracking-tight">aanya.</span>
+          <span className="font-display font-semibold tracking-tight">esha.</span>
         </a>
         <ul className="hidden md:flex items-center gap-1">
           {links.map((l) => (
